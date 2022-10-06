@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.banner {
+  position: relative;
+  background-image: url(../assets/bg_3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 715px;
+  height: 100%;
+  width: 100vw;
+}
+.wrapper_banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #2193b052, rgba(0, 0, 0, 0.5), #6dd5ed5b);
+}
+.banner2 {
+  position: relative;
+  background-image: url(../assets/bg_holiday.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 570px;
+  height: 100%;
+  width: 100vw;
+}
+.wrapper_banner2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(to top, #2193b052, rgba(0, 0, 0, 0.5), #6dd5ed5b); */
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+}
+.content h2 {
+  font-size: 46px;
+}
+.content2 {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.carousel_card {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 185px;
+  height: 100%;
+}
+
+.holiday_badge {
+  background: url(https://www.jamesvillas.co.uk/images/jvh/ui/villa-category-tabs/hr-label.svg) no-repeat;
+  width: 74px;
+  min-width: 74px;
+  height: 54px;
+  background-size: cover;
+  display: inline-block;
+  text-indent: -9999px;
+  margin: 0px auto 20px auto;
+}

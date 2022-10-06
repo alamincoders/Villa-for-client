@@ -1,0 +1,40 @@
+.primary_color {
+  color: #fd8a52;
+}
+.primary_bg {
+  background-color: #fd8a52;
+}
+
+.custom_button {
+  background-color: #fd8a52;
+  font-size: 16px;
+  padding: 10px 18px;
+  color: white;
+  margin-bottom: 70px;
+  border: 1px solid #fd8a52;
+  border-radius: 7px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.custom_button:hover {
+  color: black;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.custom_button2 {
+  background-color: transparent;
+  font-size: 16px;
+  padding: 10px 18px;
+  color: white;
+  margin-bottom: 70px;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.custom_button2:hover {
+  color: #fff;
+  background-color: #fd8a52;
+  transition: 0.5s;
+}
